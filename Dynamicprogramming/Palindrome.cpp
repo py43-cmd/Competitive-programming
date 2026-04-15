@@ -70,4 +70,4 @@ public:
         return dp[0];
     }
 }; 
-link -:https://leetcode.com/problems/maximum-number-of-non-overlapping-palindrome-substrings/
+link -:https://leetcode.com/problems/maximum-number-of-non-overlapping-palindrome-substrings/ 
