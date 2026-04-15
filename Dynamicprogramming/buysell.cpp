@@ -1,6 +1,4 @@
 
-// Best Time to Buy and Sell Stock IV;
-// url - https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/description/
 class Solution {
 public:
     int dp[100001][2][100];
@@ -23,7 +21,7 @@ public:
         }
         return dp[start][canbuy][count];
     }
-    int maxProfit(int k, vector<int>& prices) {
+    int maxProfit(int k,vector<int>& prices) {
         memset(dp, -1, sizeof(dp));
         int n=prices.size();
         return slove(0,true,prices,0,n ,k);
@@ -31,3 +29,5 @@ public:
 
     }
 };
+// Best Time to Buy and Sell Stock IV;
+// url - https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/description/
