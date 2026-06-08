@@ -5,7 +5,7 @@ public:
         int i = 0;
         long long maxi_sum = 0;
         long long sum = 0;
-        unordered_map<int, int> mp;
+        unordered_map<int,int> mp;
         for (int j = 0; j < n; j++) {
             while (mp.count(nums[j])|| j - i + 1 > k) {
                 sum -= nums[i];

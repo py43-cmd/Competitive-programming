@@ -1,7 +1,6 @@
-// https://leetcode.com/problems/closest-equal-element-queries/
 class Solution {
 public:
-    vector<int> solveQueries(vector<int>& nums, vector<int>& queries) {
+    vector<int>solveQueries(vector<int>& nums, vector<int>& queries) {
         int n = nums.size();
 
         unordered_map<int, vector<int>> mp;
