@@ -1,54 +1,68 @@
-# Competitive Programming Solutions in C++
+# Data Structures & Algorithms (DSA) Solutions in C++
 
-Welcome to the **Competitive Programming Solutions Archive**! This repository serves as a comprehensive collection of competitive programming solutions implemented in C++. Whether you are preparing for contests or simply looking to improve your coding skills, this archive provides solutions for various problems across multiple competitive programming platforms.
-
-## Overview
-This repository contains a well-organized set of algorithms and problem-solving techniques that are essential for competitive programming. The solutions are designed to be efficient, clear, and easy to understand, making them great resources for learning.
-
-## Repository Structure
-```
-Competitive-Programming/
-│
-├── Algorithms/
-│   ├── Sorting/
-│   │   ├── bubble_sort.cpp
-│   │   └── quick_sort.cpp
-│   ├── Graph/
-│   │   ├── dijkstra.cpp
-│   │   └── bfs.cpp
-│   └── DynamicProgramming/
-│       ├── knapsack.cpp
-│       └── fibonacci.cpp
-│
-├── Problems/
-│   ├── problem_1.cpp
-│   ├── problem_2.cpp
-│   └── problem_3.cpp
-│
-├── README.md
-└── LICENSE
-```
-
-## How to Use This Repository
-1. **Clone the repository**: Use the command `git clone https://github.com/py43-cmd/Competitive-programming.git`
-2. **Navigate to the directory**: `cd Competitive-programming`
-3. **Explore the folder structure**: Review the different folders and files that contain various algorithms and solution implementations.
-4. **Compile and run the code**: Use a C++ compiler like g++ to compile the solutions, e.g., `g++ -o bubble_sort Algorithms/Sorting/bubble_sort.cpp`
-
-## Suggested Folder Organization
-For optimal organization, we recommend categorizing your solutions based on the topics covered. Here’s a suggested folder organization:
-- **Algorithms**: For common algorithms, categorized by type (e.g., Sorting, Dynamic Programming, Graph Theory).
-- **Problems**: Individual problem solutions, ideally named with a reference to the problem title or problem number.
-
-## Highlights of Common Topics Covered
-- **Sorting Algorithms**: Implementations of various sorting algorithms such as Bubble Sort, Quick Sort, Merge Sort, etc.
-- **Graph Algorithms**: Solutions for problems involving graphs, including BFS, DFS, Dijkstra’s algorithm, etc.
-- **Dynamic Programming**: Examples of solving problems using dynamic programming techniques.
-- **Other Topics**: Combinatorics, Number Theory, and more. 
-
-## Closing Note
-We hope this repository serves as a valuable resource for you in your competitive programming journey. Feel free to contribute by adding your own solutions, or improving existing ones. Happy coding!  
+Welcome! This repository is my personal collection of optimized solutions to competitive programming and Data Structures & Algorithms (DSA) problems, implemented in C++.
 
 ---
 
-_Last updated: 2026-04-15_
+## 🎯 Repository Purpose
+This archive is maintained to:
+* **Track Progress**: Document my daily problem-solving journey across various coding platforms.
+* **Build Reusable Templates**: Save optimal implementations for standard algorithms (e.g., dynamic programming transitions, graph traversals).
+* **Prepare for Contests**: Serve as a reference during competitive coding contests (Codeforces, LeetCode, CodeChef, etc.).
+* **Improve Coding Practices**: Write clean, efficient, and well-documented C++ code.
+
+---
+
+## 📂 Repository Structure
+The code is organized by DSA topic folders:
+
+```text
+DSA/
+├── Dynamicprogramming/  # Subarray problems, Palindromes, Digit DP, Prefix Sum DP
+├── graph/               # Graph traversals (BFS, DFS) and pathfinding
+├── greedy/              # Greedy choice property solutions
+├── hashtable/           # Efficient mapping and lookup key-value solutions
+├── prefixsum/           # Cumulative array queries and sum optimization
+├── sliding-window/      # Range query optimization and subarray searches
+└── string/              # Pattern matching and string processing algorithms
+```
+
+---
+
+## 🚀 How to Run the Solutions
+To compile and execute any solution file locally, you need a C++ compiler installed (like GCC/g++).
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/py43-cmd/Competitive-programming.git
+   cd Competitive-programming
+   ```
+
+2. **Compile the file**:
+   ```bash
+   # Example: Compiling a greedy solution
+   g++ -O2 -std=c++17 greedy/parition.cpp -o solution
+   ```
+
+3. **Run the executable**:
+   ```bash
+   # On Linux/macOS:
+   ./solution
+   
+   # On Windows:
+   solution.exe
+   ```
+
+---
+
+## 📊 Solved Topics & Categories
+* **Dynamic Programming**: Subarray optimizations, knapsack variations, coin change, digit DP, and prefix-sum-based DP.
+* **Graph Algorithms**: Breadth-First Search (BFS) and topological/reachability solutions.
+* **Greedy**: Quick decision-making problems utilizing sorting or heap-based greedy strategies.
+* **Hashtables**: Solving lookup constraints in $O(1)$ time complexity.
+* **Prefix Sum & Sliding Window**: Optimizing subarray checks from $O(N^2)$ to $O(N)$.
+* **String Processing**: Character manipulation and string hashing.
+
+---
+
+_Last updated: 2026-06-09_
